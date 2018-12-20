@@ -31,7 +31,7 @@ function loadApp() {
 yepnope({
     test : Modernizr.csstransforms,
     yep: ['lib/turn.js'],
-    nope: ['lib/turn.html4.min.js'],
-    both: ['flipbook.css'],
+    //nope: ['lib/turn.html4.min.js'],
+    both: ['styles/flipbook.css'],
     complete: loadApp
 });
